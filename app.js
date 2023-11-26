@@ -5,9 +5,7 @@ const express = require("express");
 const app = express(); 
 
 app.get("/",(req,res)=> {
-    res.json({
-        message: "Hoş geldiniz"
-    })
+    res.send("MERHABA BEN FİRDEVS TOPALOĞLU")
 })
 
 
